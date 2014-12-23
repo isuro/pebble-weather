@@ -30,6 +30,11 @@
                 "type": "font"
             },
             {
+                "file": "images/cloudy.png",
+                "name": "IMAGES_CLOUDY_PNG",
+                "type": "png"
+            },
+            {
                 "file": "images/wind.png",
                 "name": "IMAGES_WIND_PNG",
                 "type": "png"
@@ -67,11 +72,6 @@
             {
                 "file": "images/default.png",
                 "name": "IMAGES_DEFAULT_PNG",
-                "type": "png"
-            },
-            {
-                "file": "images/cloudy.png",
-                "name": "IMAGES_CLOUDY_PNG",
                 "type": "png"
             },
             {
