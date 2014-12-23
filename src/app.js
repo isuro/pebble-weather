@@ -1,8 +1,10 @@
 var UI = require('ui');
 var ajax = require('ajax');
+
 var main = new UI.Card({
-  title: 'WX Station',
-  body: 'Loading ...'
+  title: ' Forecast',
+  body: 'Loading ...',
+  icon: 'images/default.png'
 });
 var currentLongitude;
 var currentLatitude;
@@ -26,11 +28,12 @@ function locationSuccess(pos) {
         data.currently.summary + "\n" +
         data.currently.apparentTemperature + " F"
       );
+      main.icon('images/' + data.currently.icon + '.png');
     }
   );
   ajax({ url: 'https://maps.googleapis.com/maps/api/geocode/json?latlng=' + currentLatitude + ','+ currentLongitude + '&result_type=neighborhood&key=AIzaSyDKIrhGbe5a3Aw_7NymonkN--Bsaj_Uf0E', type: 'json'},
     function(data) {
-      main.title(data.results[0].address_components[0].short_name);
+      main.title(" " + data.results[0].address_components[0].short_name);
     }
   );
 }

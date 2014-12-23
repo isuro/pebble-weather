@@ -4,7 +4,7 @@
         "location"
     ],
     "companyName": "idudez@gmail.com",
-    "longName": "Weather",
+    "longName": "Forecast",
     "projectType": "pebblejs",
     "resources": {
         "media": [
@@ -28,6 +28,61 @@
                 "file": "fonts/UbuntuMono-Regular.ttf",
                 "name": "MONO_FONT_14",
                 "type": "font"
+            },
+            {
+                "file": "images/cloudy.png",
+                "name": "IMAGES_CLOUDY_PNG",
+                "type": "png"
+            },
+            {
+                "file": "images/wind.png",
+                "name": "IMAGES_WIND_PNG",
+                "type": "png"
+            },
+            {
+                "file": "images/snow.png",
+                "name": "IMAGES_SNOW_PNG",
+                "type": "png"
+            },
+            {
+                "file": "images/sleet.png",
+                "name": "IMAGES_SLEET_PNG",
+                "type": "png"
+            },
+            {
+                "file": "images/rain.png",
+                "name": "IMAGES_RAIN_PNG",
+                "type": "png"
+            },
+            {
+                "file": "images/partly-cloudy-night.png",
+                "name": "IMAGES_PARTLY_CLOUDY_NIGHT_PNG",
+                "type": "png"
+            },
+            {
+                "file": "images/partly-cloudy-day.png",
+                "name": "IMAGES_PARTLY_CLOUDY_DAY_PNG",
+                "type": "png"
+            },
+            {
+                "file": "images/fog.png",
+                "name": "IMAGES_FOG_PNG",
+                "type": "png"
+            },
+            {
+                "file": "images/default.png",
+                "name": "IMAGES_DEFAULT_PNG",
+                "type": "png"
+            },
+            {
+                "file": "images/clear-night.png",
+                "name": "IMAGES_CLEAR_NIGHT_PNG",
+                "type": "png"
+            },
+            {
+                "file": "images/clear-day.png",
+                "name": "IMAGES_CLEAR_DAY_PNG",
+                "type": "png"
             }
         ]
     },
